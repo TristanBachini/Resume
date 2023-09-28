@@ -2,7 +2,8 @@
 {% load static %}
 {% block content %}
 
-<div class="row container mx-auto border-bottom border-5 border-secondary header" >
+
+<div class="row col container mx-auto border-bottom border-5 border-secondary header" >
   <div class="col my-auto header-text" >
     <p class="row">Tristan Paul Bachini</p>
     <div class="subtext">
@@ -24,12 +25,171 @@
           <img style="border-radius: 50%;" src="{% static '/images/tristan3.jpg' %}" class="d-block w-100" alt="...">
       </div>
     </div>
-</div>
 
-<div class="container">
+  </div>
+</div>
+<div class="row">
+
+  <div class="col-md-3 side-panel">
+    <div class="card panel-component mx-auto bg-transparent">
+      <div class="card-body">
+        <h5 class="card-title border-bottom border-2">Card title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+  </div>
+
+  <!--Start Of Mobile components -->
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="side-panel-mobile container">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <button class="btn-mobile btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      Contact Me!
+    </button>
+<!--End of mobile components-->
+  <div class="col">
+    
+    <div class="container mx-auto border-bottom border-5 border-secondary">
+      <p>
+        <h1>About Me</h1>
+      </p>
+      <p>
+        <h3>(The Professional Part)</h3>
+      </p>
+      <div>
+
+        <p>
+          As a graduate of BS Computer Science with a specialization in health informatics, my passion lies in software development and machine learning/artificial intelligence. I have a solid
+          background in maching learning, statistics, mathematics, full stack web development, and the software engineering life cycle. One of my most notable
+          projects is my thesis entitled "Machine Learning-Driven Breast Cancer Diagnosis Software Integrated with Explainable Artificial intelligence
+          Based on Fine Needle Aspriate Findings". This thesis explores the best performing machine learning model across 40 different configurations and learning
+          algorithms, and developing software that will integrate the chosen model, a user interface, and explainable artificial intelligence.
+        </p>
+          <p>
+          I have learned a lot, but I believe that there is still much to learn. Moving forward with the succeeding chapters of my life, I am excited to learn new things, and work with new 
+          people. I believe this excitement for learning to be my greatest strength. 
+          </p>
+        
+        <p>
+          <h3>(The Quirky and Personal Part)</h3>
+        </p>
+        <p>
+          Hi! I included this section so that you may have a better picture of my character.
+        </p>
+        <p>
+          From 7 to 12th grade, I studied as a scholar in Paranaque Science High School, a STEM-oriented institution. After, I pursued BS Computer Science
+          in the University of the Philippines, also as a scholar. During these times, I have met a lot of different people, most especially during my college
+          years, where I held a position in the UP Society of Computer Scientists' public relations committee for 4 years, and eventually became the organization's 
+          VP for externals. Concurrently, I was also a member of the Google Developer Student Clubs of UP Manila, where I held the position of
+          project manager for 4 years. During this time, I spearheaded, organized, and assisted towards the success and completion of several university-wide 
+          events.
+        </p>
+        <p>
+          My hobbies include working on personal projects, such as this online CV hosted on AWS, which I studied and implemented in my
+          free time. Solving puzzles gives me a sense of satisfaction so addicting, that when group projects were handed to us during my college
+          days, I tend to take the lead, communicate with my groupmates regarding my initial ideas (while actively considering theirs), and creating
+          an organized flowchart to delegate tasks accordingly. I love challenging myself with difficult tasks which I initially have no idea on how
+          to implement, just so I can learn it, and gain a sense of satisfaction and achievement. 
+        </p>
+        <p>
+          Programming aside, I love playing games (Teamfight Tactics, Valorant, Free-roam open-world games), but I definitely do not let it get 
+          in the way of the work I prioritize. I love spending time with the friends and family. Since much of my friends are in the Philippines,
+          we make-do by spending time virtually on Discord.
+        </p>
+        <p>
+          I also workout almost daily, either weight training or going out for a quick run. I keep an eye on my health, but I also do it so that I can 
+          build discipline, which is something I can benefit from with other things in life.
+        </p>
+        <p>
+          As for my extra-curriculars, during my elementary years, I joined inter-school competitions within my city in the spelling bee 6 times 
+          in 6 years, winning gold and bronze once. I also joined speech choir, quiz bee, and chess competitions. From middle school to high school,
+          my teachers helped me realize my passion and potential for academic and creative writing. I attended seminars on journal and essay writing,
+          competed in both inter and intra-school competitions, and was always considered one of the better english writers of my batch. When feeling particularly extreme emotion, 
+          be it positive or negative, one of my favorite outlets is writing poems. From structured to free-verse poetry, I write whichever I feel like writing at the time.
+        </p>
+        <p>
+          I am a very ambitious individual, and I always want to keep improving on my craft. The learning never stops, especially in the ever-changing tech 
+          industry. I have already decided on taking a master's degree, once I grow comfortable in my chosen career, and can expend some of my 
+          attention elsewhere.
+        </p>
+        
+      </div>
+    </div>
+    
+    <div class="container mx-auto border-bottom border-5 border-secondary">
+      <p>
+        <h1>Experiences</h1>
+      </p>
+        <p>
+          I held an internship role with Digiteer for 4 months with the title Software Developer Intern, where I was exposed to technologies outside of what was taught in the university, 
+          particularly react.js, next.js, and Figma. I also experienced working with other developers, and a design team, in order to complete projects within the client's expectations.
+        </p>
+        <p>
+          I have 4+ years of experience coding with python. This includes solving coding problems, machine learning scripts, and full stack web development. During this time, 
+          I encountered and explored many different packages to meet the specifics of software being developed.
+        </p>
+        <p>
+          I have 3+ years of experience developing web applications full stack, using Django, Bootstrap, Heroku, Amazon Web Services (AWS), and 
+          MySQL. Over this time, I have also been using Github to collaborate with groupmates, or simply to back up my personal projects. I also used MySQL during this time to store 
+          and retrieve relevant data collected from the web applications.
+        </p>
+        <p>
+          I have 2+ years of experience learning Machine Learning and working on related projects and scripts, most notably, my thesis on breast cancer detection from Fine Needle Aspirate 
+          findings, integrated with explainable AI and a full-stack web application deployable online. During this time, I used both R, python, and jupyter to clean, process, and
+          perform EDA on data, and then execute different ML/AI scripts. After which interpretation of results is done, followed by the sharing of findings with others.
+        </p>
+        <p>
+          I also have 2+ years of using Java to complete several projects in different courses, one example of such projects is a game of solitaire built using JavaFX. I also 
+          used Java to learn about and implement Object-oriented programming (OOP) solutions, during this time. I am also familiar with the implementation of OOP using python.
+        </p>
+        <p>
+          I have 1+ year of experience creating and executing SQL scripts to retrieve different kinds of data stored in an SQL database. Also, I have 1 year of experience in cyber and computer
+          security, from protecting myself by being aware of the possible vulnerabilities and then learning encryption and decryption techniques, to exploiting vulnerabilities myself on a linux/ubuntu shell, and on a web browser.
+        </p>
+        <p>
+          I have less than a year of experience on different computer networking concepts and fiddling with wireshark to analyze network traffic and obtain information from certain packets. Additionally,
+          I worked with the unity game engine using c# to create a first person shooter game.
+        </p>
+        <p>
+          I was a member for 4 years of the University of the Philippines' Society of Computer Scientists and Google Developer Student Clubs, handling different positions within the 
+          public relations and technical department, most notably the VP for external affairs, and projects manager. During this time, I have experienced handling several events for these
+          organizations such as seminars, job fairs, and tech workshops.
+        </p>
+          <p>
+          I have learned a lot from my degree, but I believe that there is still much to learn. Moving forward with the succeeding chapters of my life, I am excited to learn new things, and work with new 
+          people.
+          </p>
+        
+      </div>
+    </div>
+  </div>
   
 </div>
-
 
 
   {% endblock %}
