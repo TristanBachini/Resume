@@ -18,6 +18,7 @@
     }
     .side-panel{
       background-color: #800000;
+      color: #d3d3d3;
     }
     .side-panel-mobile{
       display:none;
@@ -47,6 +48,7 @@
     }
     .side-panel{
       background-color: #800000;
+      color: #d3d3d3;
     }
     .side-panel-mobile{
       display:none;
@@ -74,10 +76,9 @@
     display:none;
     z-index:2;
   }
-  /* .side-panel-mobile{
-    
-    
-  } */
+  .panel-component{
+    color: black;
+  }
   button.btn-mobile{
     position:fixed;
     z-index: 1;
