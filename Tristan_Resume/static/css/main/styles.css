@@ -56,7 +56,11 @@
     button.btn-mobile{
       display:none;
     }
-  }
+    .long-words{
+      font-size: 12px;
+    }
+  } 
+
   /* Media query for mobile devices */
 @media (max-width: 767px) {
   .img-container {
@@ -88,6 +92,9 @@
   }
   .mobile-close-button{
     float: right;
+  }
+  .side-panel-mobile{
+    overflow-y: auto;
   }
 }
 
